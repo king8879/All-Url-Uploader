@@ -16,15 +16,15 @@ if not os.path.isdir(Config.DOWNLOAD_LOCATION):
     os.makedirs(Config.DOWNLOAD_LOCATION)
 
 if not Config.BOT_TOKEN:
-    logger.error("8561011142:AAGxYL2P1daCyu7N5kCTbFDIL9ve0ZBg_H0")
+    logger.error("")
     quit(1)
 
 if not Config.API_ID:
-    logger.error("22923037")
+    logger.error("")
     quit(1)
 
 if not Config.API_HASH:
-    logger.error("dfb3666878b3851460a58461c5a50f5b")
+    logger.error("")
     quit(1)
 
 
